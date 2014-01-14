@@ -1,5 +1,6 @@
 {
     "name": "jippi/sixpack-php",
+    "version": "1.0.0",
     "description": "Sixpack A/B testing framework client",
     "keywords": ["api", "sixpack"],
     "license": "BSD-3-Clause",
