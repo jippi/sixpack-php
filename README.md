@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/seatgeek/sixpack-php/version.png)](https://packagist.org/packages/seatgeek/sixpack-php)
+[![Latest Stable Version](https://poser.pugx.org/jippi/sixpack-php/version.png)](https://packagist.org/packages/jippi/sixpack-php)
 
 # Sixpack
 
@@ -9,6 +9,8 @@ PHP client library for SeatGeak's Sixpack ab testing framework.
 Simply clone the project and include `sixpack.php` to your PHP Project
 
 ## Usage
+
+**ALL THIS IS OUT OF DATE**
 
 Basic example:
 

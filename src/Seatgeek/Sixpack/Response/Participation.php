@@ -1,8 +1,7 @@
-<?php namespace Sixpack\Response;
+<?php
+namespace Seatgeek\Sixpack\Response;
 
-use Sixpack\Response\Base;
-
-class Participation extends Base
+class Participation extends \Seatgeek\Sixpack\Response
 {
 
     private $control = null;

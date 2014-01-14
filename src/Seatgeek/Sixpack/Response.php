@@ -1,11 +1,10 @@
-<?php namespace Sixpack\Response;
+<?php
+namespace Seatgeek\Sixpack;
 
-include 'Conversion.php';
-include 'Participation.php';
-
-class Base {
+class Response {
 
     protected $response = null;
+
     protected $meta = null;
 
     public function __construct($jsonResponse, $meta)
@@ -33,4 +32,5 @@ class Base {
     {
         return $this->response->client_id;
     }
+
 }

@@ -1,12 +1,10 @@
-<?php namespace Sixpack\Session;
+<?php
+namespace Seatgeek\Sixpack;
 
-include 'Response/Response.php';
+class Session {
 
-use Sixpack\Response;
-
-class Base {
-    // configuration
     protected $baseUrl = 'http://localhost:5000';
+
     protected $cookiePrefix = 'sixpack';
 
     protected $clientId = null;
@@ -174,18 +172,4 @@ class Base {
         // handle failures in call dispatcher
         return array($return, $meta);
     }
-}
-
-class Temp extends Base {
-
-    protected function retrieveClientId()
-    {
-        return;
-    }
-
-    protected function storeClientId($clientId)
-    {
-        return;
-    }
-
 }
